@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  margin: 1.2rem;
+  padding: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.432);
+  backdrop-filter: blur(6px);
+}
+.quote {
+  font-family: "Gloria Hallelujah", cursive;
+}
+#author {
+  text-align: right;
+  font-family: "Merienda", cursive;
+}
+#new-quote {
+  font-family: "Merienda";
+  position: absolute;
+  color: white;
+  right: 1.2rem;
+  bottom: 0.8rem;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  background-color: rgb(0, 174, 255);
+}
+.anchor {
+  opacity: 0.6;
+}
+.anchor:hover {
+  opacity: 1;
+}
