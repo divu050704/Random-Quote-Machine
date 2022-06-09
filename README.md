@@ -1,2 +1,2 @@
 # Random-Quote-Machine
-Created with CodeSandbox
+A random quote machine fetching more than 100 quotes from an api.
